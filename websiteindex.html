@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    
+    
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="websitestyles.css"/>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body>
+        <div class="conainer">
+        <div class="whiteboxmain"> 
+    
+        
+        <div class="header">
+            
+            <div class="nav">
+                
+                <div class="logo">
+                LUCY CARTER
+                </div>
+                
+                    <div class="links">
+                    <a href="websiteindex.html">HOME</a>
+                        &bull;
+                    <a href="websitedesignpage.html">DESIGN</a>
+                        &bull;
+                    <a href="websitephotographypage.html">PHOTOGRAPHY</a>
+                        &bull;  
+                    <a href="websiteaboutpage.html">ABOUT</a>
+                        &bull;
+                    <a href="websitecontactpage.html">CONTACT</a>
+                    </div>
+            
+            </div>
+            </div>
+        
+        <img class="mySlides" src="images/offlinetypebanner.png" style="width:100%">
+        
+        <img class="mySlides" src="images/photographytypebanner.png" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+        
+           
+        </div>     
+
+    
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

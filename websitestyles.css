@@ -1,0 +1,162 @@
+div {
+    
+    text-decoration-color: white;
+}
+
+.container {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: white;
+    color: #e72989;
+    height: 90px;
+}
+
+.whiteboxmain {
+    width: 920px;
+    background-color: white;
+    height: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.aboutparagraph {
+    width: 920px;
+    height: 0px;
+    background-color: #2f6bb3;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2f6bb3;
+    font-family: 'Lato', sans-serif;
+    border-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-color: #e72989;
+    border-width: medium;
+}
+
+
+.nav {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    font color: #e72989;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    float: left;
+    margin-top: 35px;
+    font-size: 1.4rem;
+}
+
+.links {
+    float: right;
+    margin-top: 40px;
+    font color: #e72989;
+    font-size: 0.75rem;
+}
+
+.links a {
+    color: #e72989;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 920px;
+}
+
+.banner img{
+    max-width: 920px;
+    width: 100%;
+}
+
+.logo {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.links {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.multibox16back {
+    width: 920px;
+    background-color: #0;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.banner2 {
+    background-color: yellow;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    height: 280px;
+    width: 280px;
+}
+
+.banner2 img {
+    max-width: 280px;
+    width: 100%; 
+}
+
+.banner3{
+    background-color: white;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    height: auto;
+    width: 920px;
+}
+
+.banner3 img{
+    max-width: 920px;
+    width: 100%;
+}
+
+.banner4 {
+    background-color: white;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 25px;
+    float: left;
+    height: 314.7px;
+    width: 440px;
+}
+
+.banner4 img {
+    max-width: 440px;
+    width: 100%; 
+}
+
+.banner5 {
+    background-color: white;
+    padding: 0;
+    margin-right: 20 px;
+    margin-top: 25px;
+    float: left;
+    height: 314.7px;
+    width: 440px;
+}
+
+.banner5 img {
+    max-width: 440px;
+    width: 100%; 
+}
